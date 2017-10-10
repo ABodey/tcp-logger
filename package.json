@@ -1,0 +1,25 @@
+{
+  "name": "tcp-logger",
+  "version": "1.0.0",
+  "description": "a simple server tcp logger",
+  "main": "server.test.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha",
+    "start": "npm run test -- -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ABodey/tcp-logger.git"
+  },
+  "author": "Andrew <A.s.bodey@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ABodey/tcp-logger/issues"
+  },
+  "homepage": "https://github.com/ABodey/tcp-logger#readme",
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "mocha": "^4.0.1"
+  }
+}
